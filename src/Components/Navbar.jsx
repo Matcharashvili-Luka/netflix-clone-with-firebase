@@ -29,8 +29,8 @@ function Navbar() {
   return (
     <div 
       className={ scrollY ? 
-        'flex items-center justify-between p-4 z-[100] w-full fixed bg-black/80' : 
-        'flex items-center justify-between p-4 z-[100] w-full fixed' }
+        'flex items-center justify-between p-4 z-[100] w-full fixed bg-black max-w-[1620px]' : 
+        'flex items-center justify-between p-4 z-[100] w-full fixed bg-black/30 max-w-[1620px]' }
     >
       <Link to='/'>
         <h1 className='text-red-600 text-4xl font-bold cursor-pointer'>NETFLIX</h1>
